@@ -25,15 +25,16 @@ body{
 }
 
 .first-block{
-    height: 140px;
-    width:  250px; 
+    height: 23%;  
+    width:35%;   
     margin-top: 120px;
-    margin-left: 190px;
+    margin-left: 19%;
     background-color: white;
     border-radius: 10px;
     position: absolute;
     border-top: 2px solid hsl(180, 62%, 55%);
     box-shadow: 0 5px 2px hsl(180, 62%,55%) ;
+    /* overflow: hidden; */
 }
 
 .first-block-header{
@@ -43,25 +44,25 @@ body{
 }
 .first-block-para{
     margin-bottom: 50px;
-    padding:0px 0px 0px 20px;
-    font-size: 13px;
+    padding:0px 2px 0px 20px;
+    font-size: 90%;
     color: silver;
 }
 .first-block-image{
     position: relative;
-    left: 75%;
+    left: 70%;
     top: -40px;
-    height: 700px;
-    width: 700px;
+    height: 400%;
+    width: 350%;
 }
 
 
 .second-block{
     position: absolute;
-    height: 140px;
-    width:  250px; 
+    height: 25%;
+    width:  35%; 
     margin-top: 40px;
-    margin-left: 470px; 
+    margin-left: 40%; 
     background-color: white;
     border-radius: 10px;
     border-top: 2px solid hsl(0, 78%, 62%);
@@ -76,25 +77,25 @@ body{
 .second-block-para{
     margin-bottom: 50px;
     padding:0px 0px 0px 20px;
-    font-size: 13px;
+    font-size: 90%;
     color: silver;
 }
 .second-block-image{
     position: relative;
     left: 75%;
     top: -40px;
-    height: 500px;
-    width: 500px;
+    height: 400%;
+    width: 350%;
 }
 
 
 
 .third-block{
     position: absolute;
-    height: 140px;
-    width:  250px; 
+    height: 25%;
+    width:  35%; 
     margin-top: 210px;
-    margin-left: 470px; 
+    margin-left: 40%; 
     background-color: white;
     border-radius: 10px;
     border-top: 2px solid hsl(34, 97%, 64%);
@@ -109,25 +110,25 @@ body{
 .third-block-para{
     margin-bottom: 50px;
     padding:0px 0px 0px 20px;
-    font-size: 13px;
+    font-size: 90%;
     color: silver;
 }
 .third-block-image{
     position: relative;
     left: 75%;
     top: -40px;
-    height: 500px;
-    width: 500px;
+    height: 400%;
+    width: 350%;
 }
 
 
 
 .fourth-block{
     position: absolute;
-    height: 140px;
-    width:  250px; 
+    height: 25%;
+    width:  35%; 
     margin-top: 120px;
-    margin-left: 750px; 
+    margin-left: 61%; 
     background-color: white;
     border-radius: 10px;
     border-top: 2px solid hsl(212, 86%, 64%);
@@ -141,21 +142,50 @@ body{
 }
 .fourth-block-para{
     margin-bottom: 50px;
-    padding:0px 0px 0px 20px;
-    font-size: 13px;
+    padding:0px 2px 0px 20px;
+    font-size: 90%;
     color: silver;
 }
 .fourth-block-image{
     position: relative;
     left: 75%;
     top: -40px;
-    height: 500px;
-    width: 500px;
+    height: 400%;
+    width: 350%;
 }
 
 .attribution{
     margin-top: 420px;
 }
 
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 18.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
 
-
+  @media only screen and (max-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 18.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
