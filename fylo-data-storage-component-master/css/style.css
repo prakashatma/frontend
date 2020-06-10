@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 45);
+    position: relative;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+.container{
+    position: absolute;
+    margin-top: 24%;
+    z-index: -1;
+}
+
+.first-box{
+    position: absolute;
+     margin-top:18%;
+    margin-left: 18%;
+    background-color:rgb(0, 0, 83); 
+     padding: 30px 130px 50px 30px;
+    border-radius: 5px 100px 5px 5px ;
+    border: 2px solid rgb(0, 0, 80);
+}
+
+.small-images{
+    margin-top: 10px;
+}
+
+.small-images img{
+    padding: 5px;
+    background-color: rgb(0, 0, 45);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.small-images img:nth-child(3){
+    padding-top: 11px;
+}
+
+.second-box{
+margin-top: 20%; 
+float: right;
+margin-right: 17%;
+padding: 40px 130px 50px 30px;
+background-color: rgb(0, 0, 83);  
+border-radius: 10px; 
+border: 2px solid rgb(0, 0, 80);
+color: white;
+}
+
+.data-left{
+    position: absolute;
+    margin-top:-70px;
+    margin-left: 10px;
+    padding: 15px;
+    background-color:white;
+    font-size: 28px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.subscript{
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;    
+    color: silver;
+    margin-left: -5px;
+}
+
+#progressbar {
+    background-color: rgb(1, 1, 80);
+    border-radius: 13px;
+    padding: 3px;
+    width:350px;
+  }
+  
+  #progressbar>div {
+    background-image: linear-gradient(to right, rgb(248, 159, 174) , rgb(255, 102, 128));
+    width: 80%;
+    height: 8px;
+    border-radius: 10px;
+  }
+
+  .ending-no{
+      margin-left: 260px;
+  }
+
+.attribution{
+    position: absolute;
+    margin-top: 610px;
+    margin-left: 35%;
+    z-index: 1;
+}
