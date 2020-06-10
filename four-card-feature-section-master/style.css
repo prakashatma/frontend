@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+    font-family: "Poppins";
+    overflow: hidden;
+}
+
+.main-heading{
+    text-align: center;
+    margin-top:1%;
+    font-size: 25px;
+}
+
+.main-heading-subscript{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+    color: silver;
+}
+
+.first-block{
+    height: 140px;
+    width:  250px; 
+    margin-top: 120px;
+    margin-left: 190px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    border-top: 2px solid hsl(180, 62%, 55%);
+    box-shadow: 0 5px 2px hsl(180, 62%,55%) ;
+}
+
+.first-block-header{
+    margin-bottom: 8px;
+    padding: 20px 0px 0px 20px;
+
+}
+.first-block-para{
+    margin-bottom: 50px;
+    padding:0px 0px 0px 20px;
+    font-size: 13px;
+    color: silver;
+}
+.first-block-image{
+    position: relative;
+    left: 75%;
+    top: -40px;
+    height: 700px;
+    width: 700px;
+}
+
+
+.second-block{
+    position: absolute;
+    height: 140px;
+    width:  250px; 
+    margin-top: 40px;
+    margin-left: 470px; 
+    background-color: white;
+    border-radius: 10px;
+    border-top: 2px solid hsl(0, 78%, 62%);
+    box-shadow: 0 5px 2px hsl(0, 78%, 62%) ;
+}
+
+.second-block-header{
+    margin-bottom: 10px;
+    padding: 20px 0px 0px 20px;
+
+}
+.second-block-para{
+    margin-bottom: 50px;
+    padding:0px 0px 0px 20px;
+    font-size: 13px;
+    color: silver;
+}
+.second-block-image{
+    position: relative;
+    left: 75%;
+    top: -40px;
+    height: 500px;
+    width: 500px;
+}
+
+
+
+.third-block{
+    position: absolute;
+    height: 140px;
+    width:  250px; 
+    margin-top: 210px;
+    margin-left: 470px; 
+    background-color: white;
+    border-radius: 10px;
+    border-top: 2px solid hsl(34, 97%, 64%);
+    box-shadow: 0 5px 2px hsl(34, 97%, 64%) ;
+}
+
+.third-block-header{
+    margin-bottom: 10px;
+    padding: 20px 0px 0px 20px;
+
+}
+.third-block-para{
+    margin-bottom: 50px;
+    padding:0px 0px 0px 20px;
+    font-size: 13px;
+    color: silver;
+}
+.third-block-image{
+    position: relative;
+    left: 75%;
+    top: -40px;
+    height: 500px;
+    width: 500px;
+}
+
+
+
+.fourth-block{
+    position: absolute;
+    height: 140px;
+    width:  250px; 
+    margin-top: 120px;
+    margin-left: 750px; 
+    background-color: white;
+    border-radius: 10px;
+    border-top: 2px solid hsl(212, 86%, 64%);
+    box-shadow: 0 5px 2px hsl(212, 86%, 64%) ;
+}
+
+.fourth-block-header{
+    margin-bottom: 10px;
+    padding: 20px 0px 0px 20px;
+
+}
+.fourth-block-para{
+    margin-bottom: 50px;
+    padding:0px 0px 0px 20px;
+    font-size: 13px;
+    color: silver;
+}
+.fourth-block-image{
+    position: relative;
+    left: 75%;
+    top: -40px;
+    height: 500px;
+    width: 500px;
+}
+
+.attribution{
+    margin-top: 420px;
+}
+
+
+
