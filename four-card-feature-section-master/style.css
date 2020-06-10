@@ -25,7 +25,7 @@ body{
 }
 
 .first-block{
-    height: 23%;  
+    height: 150px; 
     width:35%;   
     margin-top: 120px;
     margin-left: 19%;
@@ -59,7 +59,7 @@ body{
 
 .second-block{
     position: absolute;
-    height: 25%;
+    height: 150px;
     width:  35%; 
     margin-top: 40px;
     margin-left: 40%; 
@@ -92,7 +92,7 @@ body{
 
 .third-block{
     position: absolute;
-    height: 25%;
+    height: 150px;
     width:  35%; 
     margin-top: 210px;
     margin-left: 40%; 
@@ -125,7 +125,7 @@ body{
 
 .fourth-block{
     position: absolute;
-    height: 25%;
+    height: 150px;
     width:  35%; 
     margin-top: 120px;
     margin-left: 61%; 
